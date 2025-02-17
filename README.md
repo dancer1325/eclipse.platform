@@ -1,54 +1,46 @@
 # Eclipse Platform Project
 
-Thanks for your interest in this project.
-
+* ALMOST entirely -- developed by -- volunteers
 
 ## Project Description
 
-This repository contains the basis for the [Eclipse IDE](https://www.eclipse.org/eclipseide/) and a sub-repository of the [eclipse-platform](https://github.com/eclipse-platform) organization. 
-It contains multiple modules:
+* == 
+  * basis for the [Eclipse IDE](https://www.eclipse.org/eclipseide/) + 
+  * sub-repository of the [eclipse-platform](https://github.com/eclipse-platform) organization
 
-### [eclipse.platform](https://github.com/eclipse-platform/eclipse.platform/tree/master/platform)
-Platform provides images like the splash screen.
+### [eclipse.platform](platform)
+* -- provides -- images (_Example:_ splash screen)
 
-### [eclipse.resources](https://github.com/eclipse-platform/eclipse.platform/tree/master/resources)
-Resources provides Java interfaces like `IResource` and implementations of workspace, folder, file and file system abstraction.
+### [eclipse.resources](resources)
+* -- provides -- 
+  * Java interfaces (_Example:_ `IResource`)
+  * implementations of 
+    * workspace,
+    * folder,
+    * file
+    * file system abstraction
 
-### [eclipse.runtime](https://github.com/eclipse-platform/eclipse.platform/tree/master/runtime) 
-Runtime provides Java interfaces like `IJob`, `ISchedulingRule` and implements scheduling of multithreaded jobs with exclusive access to a resource.
+### [eclipse.runtime](runtime) 
+* -- provides -- 
+  * Java interfaces (_Example:_ `IJob`, `ISchedulingRule`)
+  * implements scheduling of multithreaded jobs / -- exclusive access to a -- resource
 
-### [eclipse.update](https://github.com/eclipse-platform/eclipse.platform/tree/master/update)
-Update provides Java interfaces like `IPlatformConfiguration`. `IPlatformConfiguration` represents the runtime configuration.
-
+### [eclipse.update](update)
+* -- provides --
+  * Java interfaces (_Example:_ `IPlatformConfiguration`)
 
 ## How to Contribute
 
-Contributions are most welcome. There are many ways to contribute, from entering high quality bug reports, to contributing code or documentation changes.
-
-For a complete guide, see the [CONTRIBUTING](https://github.com/eclipse-platform/.github/blob/main/CONTRIBUTING.md) page.
-
-[![Create Eclipse Development Environment for Eclipse Platform](https://download.eclipse.org/oomph/www/setups/svg/Eclipse_Platform.svg)](
-https://www.eclipse.org/setups/installer/?url=https://raw.githubusercontent.com/eclipse-platform/eclipse.platform/master/releng/org.eclipse.platform.setup/PlatformConfiguration.setup&show=true
-"Click to open Eclipse-Installer Auto Launch or drag into your running installer")
+* [Create Eclipse Development Environment -- for -- Eclipse Platform](
+https://www.eclipse.org/setups/installer/?url=https://raw.githubusercontent.com/eclipse-platform/eclipse.platform/master/releng/org.eclipse.platform.setup/PlatformConfiguration.setup&show=true)
 
 ## Documentation
 
-For additional documentation, please refer to the [docs directory](./docs) and [The Official Eclipse FAQs](./docs/FAQ/The_Official_Eclipse_FAQs.md).
-
-
-## Issue Tracking
-
-This project uses Github to track ongoing development and issues. In case you have an issue, please read the information about Eclipse being a [community project](https://github.com/eclipse-platform#community) and bear in mind that this project is almost entirely developed by volunteers. So the contributors may not be able to look into every reported issue. You will also find the information about [how to find and report issues](https://github.com/eclipse-platform#reporting-issues) in repositories of the `eclipse-platform` organization there. Be sure to search for existing issues before you create another one.
-
-In case you want to report an issue that is specific to this `eclipse.platform` repository, you can [find existing issues](https://github.com/eclipse-platform/eclipse.platform/issues) or [create new issues](https://github.com/eclipse-platform/eclipse.platform/issues/new) within this repository.
-
+* [docs](./docs)
 
 ## Contact
 
-Contact the project developers via the project's "dev" list.
-
-- <https://accounts.eclipse.org/mailing-list/platform-dev>
-
+* [project's "dev" list](https://accounts.eclipse.org/mailing-list/platform-dev)
 
 ## License
 
