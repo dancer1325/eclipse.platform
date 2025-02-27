@@ -3,9 +3,13 @@
 FAQ What is a launch configuration?
 ===================================
 
-A launch configuration is a description of how to launch a program. The program itself may be a Java program, another Eclipse instance in the form of a runtime workbench, a C program, or something else. Launch configurations are manifested in the Eclipse UI through **Run > Run...**.
+* == description file -- about -- how to launch a program (Java program, another Eclipse instance, C program, ...)
+* | Eclipse UI,
+  * 👀automatically loaded | **Run > Run...** 👀
+* -- provided by -- org.eclipse.debug.core plug-in
+  * Reason: 🧠launching | Eclipse -- is closely tied to the -- infrastructure for debugging 🧠
+  * == progression from support for launching -- to -> support for interactive debugging 
 
-Launching in Eclipse is closely tied to the infrastructure for debugging, enabling you to make the logical progression from support for launching to support for interactive debugging. This is why you will find launch configurations in the org.eclipse.debug.core plug-in.
-
-For extensive documentation on how to add your own launch configuration, refer to _Platform Plug-in Developer Guide_ under **Programmer's Guide > Program Debug and Launch Support**. Also see the eclipse.org article, _We Have Lift-off: The Launching Framework in Eclipse_.
-
+* see
+  * [Program Debug and Launch Support](https://github.com/eclipse-platform/eclipse.platform.releng.aggregator/blob/master/eclipse.platform.common/bundles/org.eclipse.platform.doc.isv/guide/debug.htm)
+  * [We Have Lift-off: The Launching Framework in Eclipse](../articles/Article-Launch-Framework.launch.md)
